@@ -1,13 +1,15 @@
-boot:
+
+spring:
+ boot:
     admin:
       client:
         url: http://localhost:2222/
 
-  datasource:
+ datasource:
     password: 12345
     url: jdbc:mysql://localhost:3306/majorProject
     username: root
-  jpa:
+ jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
@@ -20,6 +22,4 @@ management:
         include: '*'
  
 server:
-  port: 8081  
-    
-    
+  port: 8081

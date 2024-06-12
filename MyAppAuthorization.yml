@@ -23,3 +23,11 @@ management:
  
 server:
   port: 8081
+  
+auth-service:
+messages:
+reg : sucessfully registred
+regErr : registration failed
+login : sucessfully logedin
+loginErr : invalid credentials  
+  
